@@ -177,3 +177,54 @@ body {
 
 .midnight-right-container img {
 }
+
+/* time design start here */
+
+.time {
+  max-width: 1320px;
+  min-height: 482px;
+  /* border: 2px solid gray; */
+  margin: 0 auto;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-title-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.time-title-container h3 span {
+  color: rgba(255, 0, 0, 1);
+}
+
+.time-container button {
+  text-align: center;
+  width: 167px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 48px;
+  border: none;
+}
+
+/* end of time styles */
